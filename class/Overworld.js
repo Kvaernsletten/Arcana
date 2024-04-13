@@ -8,7 +8,6 @@ class Overworld {
 
     startGameLoop(){
         const updateFrames = () =>{
-            console.log("fupus")
             //Clear the canvas each frame
             this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
 
