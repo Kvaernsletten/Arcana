@@ -30,8 +30,8 @@ window.WorldMaps = {
         gameObjects: {
             player: new Character({
                 isPlayerControlled: true,
-                x: utils.withGrid(1),
-                y: utils.withGrid(1),
+                x: utils.withGrid(15),
+                y: utils.withGrid(15),
             }),
             npc: new Character({
                 x: 5,

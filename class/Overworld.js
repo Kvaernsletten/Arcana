@@ -33,11 +33,11 @@ class Overworld {
             //Draw upper layer
             this.map.drawUpperLayerImg(this.ctx, camera);
 
-            setTimeout(() => {
-                requestAnimationFrame(() => {
-                updateFrames();
+
+            requestAnimationFrame(() => {
+            updateFrames();
             })
-            }, 1000/60);
+
 
         }
         updateFrames();
