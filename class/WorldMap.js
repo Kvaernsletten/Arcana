@@ -32,6 +32,7 @@ window.WorldMaps = {
                 isPlayerControlled: true,
                 x: utils.withGrid(15),
                 y: utils.withGrid(15),
+                src: "img/player/player.png",
             }),
             npc: new Character({
                 x: 5,
@@ -48,11 +49,13 @@ window.WorldMaps = {
                 isPlayerControlled: true,
                 x: utils.withGrid(2),
                 y: utils.withGrid(4),
+                src: "img/player/player.png",
             }),
             npc2: new Character({
                 x: utils.withGrid(2),
                 y: utils.withGrid(4),
                 src: "favicon.ico",
+    
             }),
         }
     },
