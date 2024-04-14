@@ -1,6 +1,7 @@
 class WorldMap{
     constructor(config){
         this.gameObjects = config.gameObjects;
+        this.colliders = config.colliders || {};
         
         this.lowerLayerImage = new Image();
         this.lowerLayerImage.src = config.lowerLayerSrc;
@@ -39,6 +40,9 @@ window.WorldMaps = {
                 y: 5,
                 src: "favicon.ico",
             }),
+        },
+        colliders: {
+            
         }
     },
     Overworld2: {
